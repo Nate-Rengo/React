@@ -1,4 +1,4 @@
-# : How to
+# How to
 ### Quick Deploy:
 #### in cmd line:
 git add .
