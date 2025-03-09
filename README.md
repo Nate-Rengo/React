@@ -1,11 +1,31 @@
-# How to
+# How to:
 ### Quick Deploy:
-#### in cmd line:
-git add .
-git commit -m "message"
-git push origin main
-npm run build
-npm run deploy 
+
+#### In the command line:
+1. Stage all changes:
+   ```bash
+   git add .
+   ```
+
+2. Commit your changes:
+   ```bash
+   git commit -m "message"
+   ```
+
+3. Push changes to GitHub:
+   ```bash
+   git push origin main
+   ```
+
+4. Build your project:
+   ```bash
+   npm run build
+   ```
+
+5. Deploy your project:
+   ```bash
+   npm run deploy
+   ```
 
 In the project directory, you can run:
 
