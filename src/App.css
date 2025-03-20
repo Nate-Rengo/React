@@ -10,9 +10,147 @@ h1 {
 }
 
 h2 {
-  color: Yellow;
-  text-align: left;
+  color: Black;
+  text-align: center;
   font-size: 2vw;
 
+
+}
+#loginField {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* vertically centers them */
+  gap: 10px; /* space between h1 and input */
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#loginField h1 {
+  font-size: 1.5rem; /* optional: shrink heading so it's not huge */
+  margin: 0;         /* remove extra margin if needed */
+}
+
+#loginField input {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  align-items: center;
+}
+
+#loginField #loginButton {
+  margin: 0 auto; /* centers block elements horizontally */
+  background-color: blue;
+  color: white;
+  font-size: 2vw;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+#AboutMe {
+  margin: 0 auto; /* centers block elements horizontally */
+  background-color: rgb(98, 98, 144);
+  color: white;
+  font-size: 2vw;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  text-align: center; 
+  cursor: pointer;
+
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-container {
+  max-width: 75%;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 1.5vw;
+  color: #333333;
+}
+
+.links {
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  align-items: center; /* Align to the left side */
+  margin-bottom: 20px;
+}
+
+.links a {
+  color: #1a73e8;
+  text-decoration: none;
+  margin: 4px 0; /* Space between links */
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+.section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222222;
+}
+
+.school {
+  font-weight: 600;
+  color: #444444;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #777777;
+}
+.degree-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.degree-container p {
+  margin: 0;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #777777;
+}
+
+.profile {
+  align-items: left;
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  max-width: 100%;
+  height: auto;
 
 }

@@ -1,15 +1,28 @@
-import React from 'react'
 import './App.css';
-import Header from './components/Header';
-import MainContent from './components/MainContent';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import LoginButton from './components/loginButton';
+import FinnaHome from './components/finnaHome';
+import AboutMe from './components/AboutMe';
 
-function App() {
+export default function MyApp() {
+  console.log('MyApp is rendering');
   return (
-    <>
-      <Header />
-      <MainContent />
-    </>
+    
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={
+          <div>
+            <h1>Welcome to my app</h1>
+            <LoginButton />
+          </div>
+        } />
+        <Route path="/finnaHome" element={<FinnaHome />} />
+        <Route path="/AboutMe" element={<AboutMe />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+
+
+
