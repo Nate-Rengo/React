@@ -7,8 +7,6 @@ import AboutMe from './components/AboutMe';
 export default function MyApp() {
   console.log('MyApp is rendering');
   return (
-    
-    <BrowserRouter>
       <Routes>
         <Route path="/" element={
           <div>
@@ -19,7 +17,6 @@ export default function MyApp() {
         <Route path="/finnaHome" element={<FinnaHome />} />
         <Route path="/AboutMe" element={<AboutMe />} />
       </Routes>
-    </BrowserRouter>
   );
 }
 

@@ -1,14 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; // Updated import for React 18
-import './index.css'; // Import any global CSS styles
-import MyApp from './App'; // Import your main app component
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import MyApp from './App';
+import { HashRouter } from 'react-router-dom'; 
 
-// Use ReactDOM.createRoot() to create a root for your app
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-// Render your app into the root element
 root.render(
   <React.StrictMode>
-    <MyApp /> {/* Your main component */}
+    <HashRouter> {}
+      <MyApp />
+    </HashRouter>
   </React.StrictMode>
 );

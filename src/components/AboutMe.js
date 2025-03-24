@@ -4,7 +4,7 @@ export default function AboutMe() {
     return(
         <div>
             <h1> Hello, I am Nate Rengo!</h1>
-            <img src="/images/me.png" alt="Nate Rengo standing in front of a field" className="profile"></img>
+            <img src={`${process.env.PUBLIC_URL}/images/me.png`} alt="Nate Rengo" className="profile" />
             <div id="AboutMe">
                 <h2>Read a little bit about me below!</h2>
                 <p>
@@ -74,7 +74,7 @@ export default function AboutMe() {
         </p>
       </section>
     </div>
-    <img src="/images/imAPilot.png" alt="Nate Rengo standing in front of a plane"></img>
+    <img src={`${process.env.PUBLIC_URL}/images/imAPilot.png`} alt="Nate Rengo standing in front of a plane"/>
         </div>
         
     );
