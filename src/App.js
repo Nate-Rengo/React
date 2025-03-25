@@ -16,6 +16,7 @@ export default function MyApp() {
         } />
         <Route path="/finnaHome" element={<FinnaHome />} />
         <Route path="/AboutMe" element={<AboutMe />} />
+        <Route path="/my-app" element={<MyApp />} />
       </Routes>
   );
 }
