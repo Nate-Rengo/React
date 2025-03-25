@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';  // Import Router for routing
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/React">
     <MyApp />
   </BrowserRouter>
 );
