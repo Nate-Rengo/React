@@ -1,4 +1,7 @@
-# How to:
+# Check it out here!
+https://nate-rengo.github.io/React/
+
+# How to Run Locally and prepare to host:
 ### Quick Deploy:
 
 #### In the command line:
